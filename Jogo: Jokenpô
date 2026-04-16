@@ -82,46 +82,48 @@ if gameMode == 2:
             print("Jogada inválida!")
             verify2 = 0
         else:
-            verify4 = 0
-            while True:
-                resto = verify4 % 3
-                if resto == 0:
-                    jogadaMaquina = "pedra"
-                elif resto == 1:
-                    jogadaMaquina = "papel"
-                else:
-                    jogadaMaquina = "tesoura"
-                contador +=1
-                
-                if jogador1 == jogadorMaquina:
-                    print("Empate!")
-                    print()
-                    jogarNovamente = int(input("Deseja jogar novamente? (1 = sim/2 = não): "))
-                    if jogarNovamente == 1:
-                        verify2 = 0
-                    else:
-                        verify2 = 1
-                        print()
-                        print("Trabalho feito por Lucas Dinnies e Mariana Pondé <3")
-                elif (jogador1 == "pedra" and jogador2 == "tesoura") or (
-                        jogador1 == "papel" and jogador2 == "pedra") or (jogador1 == "tesoura" and jogador2 == "papel"):
-                    print("Jogador 1 venceu! :3")
-                    print()
-                    jogarNovamente = int(input("Deseja jogar novamente? (1 = sim/2 = não): "))
-                    if jogarNovamente == 1:
-                        verify2 = 0
-                    else:
-                        verify2 = 1
-                        print()
-                        print("Trabalho feito por Lucas Dinnies e Mariana Pondé <3")
-                else:
-                    print("Jogador 2 venceu! :P")
-                    print()
-                    jogarNovamente = int(input("Deseja jogar novamente? (1 = sim/2 = não): "))
-                    if jogarNovamente == 1:
-                        verify2 = 0
-                    else:
-                        verify2 = 1
-                        print()
-                        print("Trabalho feito por Lucas Dinnies e Mariana Pondé <3")
-        
+            contador = 0
+
+            for i in range(1000):
+                contador = contador + 1
+
+            resto = contador % 3
+            if resto == 0:
+                jogadaMaquina = "pedra"
+            elif resto == 1:
+                jogadaMaquina = "papel"
+            else:
+                jogadaMaquina = "tesoura"
+
+        if jogador1 == jogadaMaquina:
+            print("Empate!")
+            print()
+            jogarNovamente = int(input("Deseja jogar novamente? (1 = sim/2 = não): "))
+            if jogarNovamente == 1:
+                verify2 = 0
+            else:
+                verify2 = 1
+                print()
+                print("Trabalho feito por Lucas Dinnies e Mariana Pondé <3")
+        elif (jogador1 == "pedra" and jogadaMaquina == "tesoura") or (
+                jogador1 == "papel" and jogadaMaquina == "pedra") or (
+                jogador1 == "tesoura" and jogadaMaquina == "papel"):
+            print("Jogador 1 venceu! :3")
+            print()
+            jogarNovamente = int(input("Deseja jogar novamente? (1 = sim/2 = não): "))
+            if jogarNovamente == 1:
+                verify2 = 0
+            else:
+                verify2 = 1
+                print()
+                print("Trabalho feito por Lucas Dinnies e Mariana Pondé <3")
+        else:
+            print("A máquina venceu! :P")
+            print()
+            jogarNovamente = int(input("Deseja jogar novamente? (1 = sim/2 = não): "))
+            if jogarNovamente == 1:
+                verify2 = 0
+            else:
+                verify2 = 1
+                print()
+                print("Trabalho feito por Lucas Dinnies e Mariana Pondé <3")
