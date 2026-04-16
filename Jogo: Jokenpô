@@ -1,0 +1,47 @@
+print("")
+print ("\033[33m‿︵‿୨୧‿︵‿\033[0m" * 3)
+print("𝜗𝜚 ࣪˖ 𝒥ꪮᛕꫀꪀρô ִ𐙚".center(25))
+print("")
+print("𝐦𝐨𝐝𝐨𝐬 𝐝𝐞 𝐣𝐨𝐠𝐨:")
+print ("humano x humano🥸 (1)")
+print ("humano x máquina👾 (2)")
+print ("máquina x máquina🎰 (3)")
+print ("SAIR↩️ (4)")
+print("")
+
+verify = 0
+while verify == 0:
+    gameMode = int(input("Selecione o modo de jogo: "))
+    if 5 > gameMode > 0:
+        verify = verify + 1
+    else:
+        print()
+        print("Valor inválido!")
+
+if gameMode == 1:
+    print("Humano x Humano")
+
+    verify2 = 0
+    while verify2 == 0:
+        print("Selecione uma opção entre pedra/papel/tesoura.")
+        jogador1 = input("Jogador 1, realize sua jogada: ").lower()
+        if jogador1 != "pedra" and jogador1 != "papel" and jogador1 != "tesoura":
+            print("Jogada inválida!")
+            verify2 = 0
+        else:
+            print("\n" * 20)
+            verify3 = 0
+            while verify3 == 0:
+                jogador2 = input("Jogador 2, realize sua jogada: ").lower()
+                if jogador2 != "pedra" and jogador2 != "papel" and jogador2 != "tesoura":
+                    print("Jogada inválida!")
+                    verify3 = 0
+                else:
+                    verify3 = 1
+            verify2 = 1
+    if jogador1 == jogador2:
+        print ("Empate!")
+    elif (jogador1 == "pedra" and jogador2 == "tesoura") or (jogador1 == "papel" and jogador2 == "pedra") or (jogador1 == "tesoura" and jogador2 == "papel"):
+        print ("Jogador 1 venceu! :3")
+    else:
+        print ("Jogador 2 venceu! :3")
