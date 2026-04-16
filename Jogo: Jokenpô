@@ -74,6 +74,7 @@ if gameMode == 1:
 if gameMode == 2:
 
     print("Humano x Máquina")
+    contador = 0
     verify2 = 0
     while verify2 == 0:
         print("Selecione uma opção entre pedra/papel/tesoura.")
@@ -81,19 +82,14 @@ if gameMode == 2:
         if jogador1 != "pedra" and jogador1 != "papel" and jogador1 != "tesoura":
             print("Jogada inválida!")
             verify2 = 0
+        contador = contador + 1
+        resto = contador % 3
+        if resto == 0:
+            jogadaMaquina = "pedra"
+        elif resto == 1:
+            jogadaMaquina = "papel"
         else:
-            contador = 0
-
-            for i in range(1000):
-                contador = contador + 1
-
-            resto = contador % 3
-            if resto == 0:
-                jogadaMaquina = "pedra"
-            elif resto == 1:
-                jogadaMaquina = "papel"
-            else:
-                jogadaMaquina = "tesoura"
+            jogadaMaquina = "tesoura"
 
         if jogador1 == jogadaMaquina:
             print("Empate!")
