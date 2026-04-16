@@ -1,48 +1,52 @@
+print()
+print ("\033[95m────୨ৎ────\033[0m" * 3)
+print("\033[33m⋆˚꩜｡ Mᴇɴᴜ: J𖹭ᴋᴇɴᴘ𖹭̂.ᐟ ⋆˚࿔\033[0m".center(38))
 print("")
-print ("\033[33m‿︵‿୨୧‿︵‿\033[0m" * 3)
-print("𝜗𝜚 ࣪˖ 𝒥ꪮᛕꫀꪀρô ִ𐙚".center(25))
-print("")
-print("𝐦𝐨𝐝𝐨𝐬 𝐝𝐞 𝐣𝐨𝐠𝐨:")
-print ("humano x humano🥸 (1)")
-print ("humano x máquina👾 (2)")
-print ("máquina x máquina🎰 (3)")
-print ("SAIR↩️ (4)")
-print("")
+print("\033[36m𐔌՞. .՞𐦯 M𖹭ᴅ𖹭s ᴅᴇ ᴊ𖹭ɢ𖹭: ᶻ 𝗓 𐰁 \033[0m".center(30))
+print ("⤷ Hᴜᴍᴀɴ𖹭 x Hᴜᴍᴀɴ𖹭 (1) ⋆˚࿔")
+print ("⤷ Hᴜᴍᴀɴ𖹭 x Mᴀ́ǫᴜɪɴᴀ (2) ⋆˚࿔")
+print ("⤷ Mᴀ́ǫᴜɪɴᴀ x Mᴀ́ǫᴜɪɴᴀ (3) ⋆˚࿔")
+print ("⤷ Sᴀɪʀ ᴅ𖹭 Pʀ𖹭ɢʀᴀᴍᴀ (4) ⋆˚࿔")
+print ()
+print ("\033[95m────୨ৎ────\033[0m" * 3)
 
 verify = 0
 while verify == 0:
-    gameMode = int(input("Selecione o modo de jogo: "))
+    print()
+    gameMode = int(input("\033[33m⤷ Sᴇʟᴇᴄɪ𖹭ɴᴇ 𖹭 ᴍ𖹭ᴅ𖹭 ᴅᴇ ᴊ𖹭ɢ𖹭: \033[0m"))
     if 5 > gameMode > 0:
         verify = verify + 1
     else:
         print()
-        print("Valor inválido!")
+        print("\033[95m(╥﹏╥) Vᴀʟ𖹭ʀ Iɴᴠᴀ́ʟɪᴅ𖹭 !! *ੈ✩‧₊˚\033[0m")
+        print()
 
 if gameMode == 1:
-    print("Humano x Humano")
-
+    print("⤷ Hᴜᴍᴀɴ𖹭 x Hᴜᴍᴀɴ𖹭 (1) ⋆˚࿔")
     verify2 = 0
     while verify2 == 0:
-        print("Selecione uma opção entre pedra/papel/tesoura.")
-        jogador1 = input("Jogador 1, realize sua jogada: ").lower()
+        print ()
+        print("Sᴇʟᴇᴄɪ𖹭ɴᴇ ᴜᴍᴀ 𖹭ᴘçã𖹭 ᴇɴᴛʀᴇ ᴘᴇᴅʀᴀ, ᴘᴀᴘᴇʟ ᴇ ᴛᴇs𖹭ᴜʀᴀ !!")
+        jogador1 = input("\033[33m(˶ˆᗜˆ˵) J𖹭ɢᴀᴅ𖹭ʀ 1, ʀᴇᴀʟɪᴢᴇ sᴜᴀ ᴊ𖹭ɢᴀᴅᴀ, ᴘ𖹭ʀ ғᴀᴠ𖹭ʀ !! ۶ৎ Aɢ𖹭ʀᴀ ᴇsᴄ𖹭ʟʜᴀ: \033[0m").lower()
         if jogador1 != "pedra" and jogador1 != "papel" and jogador1 != "tesoura":
-            print("Jogada inválida!")
+            print("\033[95m(╥﹏╥) J𖹭ɢᴀᴅᴀ Iɴᴠᴀ́ʟɪᴅᴀ !! *ੈ✩‧₊˚\033[0m")
             verify2 = 0
         else:
             print("\n" * 20)
             verify3 = 0
             while verify3 == 0:
-                jogador2 = input("Jogador 2, realize sua jogada: ").lower()
+                jogador2 = input("\033[33m(˶ˆᗜˆ˵) J𖹭ɢᴀᴅ𖹭ʀ 2, ʀᴇᴀʟɪᴢᴇ sᴜᴀ ᴊ𖹭ɢᴀᴅᴀ, ᴘ𖹭ʀ ғᴀᴠ𖹭ʀ !! ۶ৎ Aɢ𖹭ʀᴀ ᴇsᴄ𖹭ʟʜᴀ: \033[0m").lower()
                 if jogador2 != "pedra" and jogador2 != "papel" and jogador2 != "tesoura":
-                    print("Jogada inválida!")
+                    print("\033[95m(╥﹏╥) J𖹭ɢᴀᴅᴀ Iɴᴠᴀ́ʟɪᴅᴀ !! *ੈ✩‧₊˚\033[0m")
                     verify3 = 0
                 else:
                     verify3 = 1
 
         if jogador1 == jogador2:
-            print ("Empate!")
             print()
-            jogarNovamente = int(input("Deseja jogar novamente? (1 = sim/2 = não): "))
+            print ("\033[36m ݁ ˖Ი𐑼⋆ Eᴍᴘᴀᴛᴇ !! ⋆˚࿔\033[0m")
+            print()
+            jogarNovamente = int(input("⋆. 𐙚 ˚ Dᴇsᴇᴊᴀ ᴊᴏɢᴀʀ ɴᴏᴠᴀᴍᴇɴᴛᴇ ?? (1 ᴘᴀʀᴀ sɪᴍ ᴇ 2 ᴘᴀʀᴀ ɴᴀ̃ᴏ): "))
             if jogarNovamente == 1:
                 verify2 = 0
             else:
@@ -50,9 +54,9 @@ if gameMode == 1:
                 print ()
                 print ("Trabalho feito por Lucas Dinnies e Mariana Pondé <3")
         elif (jogador1 == "pedra" and jogador2 == "tesoura") or (jogador1 == "papel" and jogador2 == "pedra") or (jogador1 == "tesoura" and jogador2 == "papel"):
-            print ("Jogador 1 venceu! :3")
+            print ("\033[36m ݁ ˖Ი𐑼⋆ Jᴏɢᴀᴅᴏʀ 1 ɢᴀɴʜᴏᴜ !! Pᴀʀᴀʙᴇ́ɴs !! ⋆˚࿔\033[0m")
             print()
-            jogarNovamente = int(input("Deseja jogar novamente? (1 = sim/2 = não): "))
+            jogarNovamente = int(input("⋆. 𐙚 ˚ Dᴇsᴇᴊᴀ ᴊᴏɢᴀʀ ɴᴏᴠᴀᴍᴇɴᴛᴇ ?? (1 ᴘᴀʀᴀ sɪᴍ ᴇ 2 ᴘᴀʀᴀ ɴᴀ̃ᴏ): "))
             if jogarNovamente == 1:
                 verify2 = 0
             else:
@@ -60,9 +64,9 @@ if gameMode == 1:
                 print ()
                 print ("Trabalho feito por Lucas Dinnies e Mariana Pondé <3")
         else:
-            print ("Jogador 2 venceu! :P")
+            print ("\033[36m ݁ ˖Ი𐑼⋆ Jᴏɢᴀᴅᴏʀ 2 ɢᴀɴʜᴏᴜ !! Pᴀʀᴀʙᴇ́ɴs !! ⋆˚࿔\033[0m")
             print()
-            jogarNovamente = int(input("Deseja jogar novamente? (1 = sim/2 = não): "))
+            jogarNovamente = int(input("⋆. 𐙚 ˚ Dᴇsᴇᴊᴀ ᴊᴏɢᴀʀ ɴᴏᴠᴀᴍᴇɴᴛᴇ ?? (1 ᴘᴀʀᴀ sɪᴍ ᴇ 2 ᴘᴀʀᴀ ɴᴀ̃ᴏ):: "))
             if jogarNovamente == 1:
                 verify2 = 0
             else:
@@ -94,7 +98,7 @@ if gameMode == 2:
         if jogador1 == jogadaMaquina:
             print("Empate!")
             print()
-            jogarNovamente = int(input("Deseja jogar novamente? (1 = sim/2 = não): "))
+            jogarNovamente = int(input("⋆. 𐙚 ˚ Dᴇsᴇᴊᴀ ᴊᴏɢᴀʀ ɴᴏᴠᴀᴍᴇɴᴛᴇ ?? (1 ᴘᴀʀᴀ sɪᴍ ᴇ 2 ᴘᴀʀᴀ ɴᴀ̃ᴏ): "))
             if jogarNovamente == 1:
                 verify2 = 0
             else:
@@ -106,7 +110,7 @@ if gameMode == 2:
                 jogador1 == "tesoura" and jogadaMaquina == "papel"):
             print("Jogador 1 venceu! :3")
             print()
-            jogarNovamente = int(input("Deseja jogar novamente? (1 = sim/2 = não): "))
+            jogarNovamente = int(input("⋆. 𐙚 ˚ Dᴇsᴇᴊᴀ ᴊᴏɢᴀʀ ɴᴏᴠᴀᴍᴇɴᴛᴇ ?? (1 ᴘᴀʀᴀ sɪᴍ ᴇ 2 ᴘᴀʀᴀ ɴᴀ̃ᴏ): "))
             if jogarNovamente == 1:
                 verify2 = 0
             else:
@@ -116,7 +120,7 @@ if gameMode == 2:
         else:
             print("A máquina venceu! :P")
             print()
-            jogarNovamente = int(input("Deseja jogar novamente? (1 = sim/2 = não): "))
+            jogarNovamente = int(input("⋆. 𐙚 ˚ Dᴇsᴇᴊᴀ ᴊᴏɢᴀʀ ɴᴏᴠᴀᴍᴇɴᴛᴇ ?? (1 ᴘᴀʀᴀ sɪᴍ ᴇ 2 ᴘᴀʀᴀ ɴᴀ̃ᴏ): "))
             if jogarNovamente == 1:
                 verify2 = 0
             else:
