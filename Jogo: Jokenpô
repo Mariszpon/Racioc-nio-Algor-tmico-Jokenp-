@@ -127,3 +127,62 @@ if gameMode == 2:
                 verify2 = 1
                 print()
                 print("\033[95m°❀⋆.ೃ࿔*:･ Tʀᴀʙᴀʟʜ𖹭 ғᴇɪᴛ𖹭 ᴘ𖹭ʀ Lᴜᴄᴀs Dɪɴɴɪᴇs ᴇ Mᴀʀɪᴀɴᴀ P𖹭ɴᴅᴇ́  ‹𝟹\033[0m")
+
+if gameMode == 3:
+
+    print("⤷ Mᴀ́ǫᴜɪɴᴀ x Mᴀ́ǫᴜɪɴᴀ (3) ⋆˚࿔")
+    rodada = 1
+    verify2 = 0
+    if rodada % 3 == 1:
+        # empate
+        maquina1 = rodada % 3
+        maquina2 = rodada % 3
+    elif rodada % 3 == 2:
+        # máquina 1 vence
+        maquina1 = 0  # pedra
+        maquina2 = 2  # tesoura
+    else:
+        # máquina 2 vence
+        maquina1 = 2  # tesoura
+        maquina2 = 0  # pedra
+
+    if maquina1 == 0:
+        print("A máquina 1 escolheu pedra.")
+    elif maquina1 == 1:
+        print ("A máquina 1 escolheu papel.")
+    elif maquina1 == 2:
+        print ("A máquina 1 escolheu tesoura.")
+
+    if maquina2 == 0:
+        print("A máquina 2 escolheu pedra.")
+    elif maquina2 == 1:
+        print("A máquina 2 escolheu papel.")
+    elif maquina2 == 2:
+        print("A máquina 2 escolheu tesoura.")
+
+    verify2 = 0
+    while verify2 == 0:
+        if maquina1 == maquina2:
+            print("Empate !!")
+            jogarNovamente = int(input("⋆. 𐙚 ˚ Dᴇsᴇᴊᴀ ᴊ𖹭ɢᴀʀ ɴ𖹭ᴠᴀᴍᴇɴᴛᴇ ?? (1 ᴘᴀʀᴀ sɪᴍ ᴇ 2 ᴘᴀʀᴀ ɴᴀ̃ᴏ): "))
+            if jogarNovamente == 1:
+                verify2 = 0
+            else:
+                verify2 = 1
+                print("\033[95m°❀⋆.ೃ࿔*:･ Tʀᴀʙᴀʟʜ𖹭 ғᴇɪᴛ𖹭 ᴘ𖹭ʀ Lᴜᴄᴀs Dɪɴɴɪᴇs ᴇ Mᴀʀɪᴀɴᴀ P𖹭ɴᴅᴇ́  ‹𝟹\033[0m")
+        elif (maquina1 == 0 and maquina2 == 2) or (maquina1 == 1 and maquina2 == 0) or (maquina1 == 2 and maquina2 == 1):
+            print("A máquina 1 venceu !!")
+            jogarNovamente = int(input("⋆. 𐙚 ˚ Dᴇsᴇᴊᴀ ᴊ𖹭ɢᴀʀ ɴ𖹭ᴠᴀᴍᴇɴᴛᴇ ?? (1 ᴘᴀʀᴀ sɪᴍ ᴇ 2 ᴘᴀʀᴀ ɴᴀ̃ᴏ): "))
+            if jogarNovamente == 1:
+                    verify2 = 0
+            else:
+                verify2 = 1
+                print("\033[95m°❀⋆.ೃ࿔*:･ Tʀᴀʙᴀʟʜ𖹭 ғᴇɪᴛ𖹭 ᴘ𖹭ʀ Lᴜᴄᴀs Dɪɴɴɪᴇs ᴇ Mᴀʀɪᴀɴᴀ P𖹭ɴᴅᴇ́  ‹𝟹\033[0m")
+        else:
+            print("A máquina 2 venceu !! YIPEE")
+            jogarNovamente = int(input("⋆. 𐙚 ˚ Dᴇsᴇᴊᴀ ᴊ𖹭ɢᴀʀ ɴ𖹭ᴠᴀᴍᴇɴᴛᴇ ?? (1 ᴘᴀʀᴀ sɪᴍ ᴇ 2 ᴘᴀʀᴀ ɴᴀ̃ᴏ): "))
+            if jogarNovamente == 1:
+                verify2 = 0
+            else:
+                verify2 = 1
+                print("\033[95m°❀⋆.ೃ࿔*:･ Tʀᴀʙᴀʟʜ𖹭 ғᴇɪᴛ𖹭 ᴘ𖹭ʀ Lᴜᴄᴀs Dɪɴɴɪᴇs ᴇ Mᴀʀɪᴀɴᴀ P𖹭ɴᴅᴇ́  ‹𝟹\033[0m")
