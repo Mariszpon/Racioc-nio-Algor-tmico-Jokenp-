@@ -1,38 +1,67 @@
+# Oi professora!! É a Mari :) Eu fiz algumas anotações no código porque fico bastante nervosa em trabalhos.
+# Assim sei exatamente o que falar, espero que entenda!!
+
+# - - - Menu - - -
 print()
 print ("\033[95m────୨ৎ────\033[0m" * 3)
 print("\033[33m⋆˚꩜｡ Mᴇɴᴜ: J𖹭ᴋᴇɴᴘ𖹭̂.ᐟ ⋆˚࿔\033[0m".center(38))
-print("")
+print()
 print("\033[36m𐔌՞. .՞𐦯 M𖹭ᴅ𖹭s ᴅᴇ ᴊ𖹭ɢ𖹭: ᶻ 𝗓 𐰁 \033[0m".center(30))
 print ("⤷ Hᴜᴍᴀɴ𖹭 x Hᴜᴍᴀɴ𖹭 (1) ⋆˚࿔")
 print ("⤷ Hᴜᴍᴀɴ𖹭 x Mᴀ́ǫᴜɪɴᴀ (2) ⋆˚࿔")
 print ("⤷ Mᴀ́ǫᴜɪɴᴀ x Mᴀ́ǫᴜɪɴᴀ (3) ⋆˚࿔")
 print ("⤷ Sᴀɪʀ ᴅ𖹭 Pʀ𖹭ɢʀᴀᴍᴀ (4) ⋆˚࿔")
-print ()
+print()
 print ("\033[95m────୨ৎ────\033[0m" * 3)
+
+# O código usa print() com símbolos e cores para deixar o menu mais bonito;
+# O menu mostra quatro modos de jogo.
 
 verify = 0
 while verify == 0:
-    print()
     gameMode = int(input("\033[33m⤷ Sᴇʟᴇᴄɪ𖹭ɴᴇ 𖹭 ᴍ𖹭ᴅ𖹭 ᴅᴇ ᴊ𖹭ɢ𖹭: \033[0m"))
-    if 5 > gameMode > 0:
+    if 3 >= gameMode > 0:
         verify = verify + 1
     else:
         print()
         print("\033[95m(╥﹏╥) Vᴀʟ𖹭ʀ Iɴᴠᴀ́ʟɪᴅ𖹭 !! *ੈ✩‧₊˚\033[0m")
         print()
 
+# Enquanto o verify for igual a 0, o programa continua pedindo pro usuário escolher um modo.
+# Se o usuário digital um número válido (Entre 1 e 3), verify passa a ser 1 e o loop termina.
+# Se o número for inválido (>3 ou 0>=), aparece a mensagem de erro e o programa volta a pedir a escolha.
+
+# - - - Humano x Humano - - -
+
 if gameMode == 1:
     print("⤷ Hᴜᴍᴀɴ𖹭 x Hᴜᴍᴀɴ𖹭 (1) ⋆˚࿔")
+    print()
+
+# Se o usuário escolheu 1 no menu, o programa entra nesse bloco.
+
     verify2 = 0
     while verify2 == 0:
-        print ()
+
+# Aqui começa outro loop, terminando apenas se verify2 for diferente de 0.
+# Isso significa que o jogo continua rodando até o jogador decidir não jogar novamente.
+
         print("Sᴇʟᴇᴄɪ𖹭ɴᴇ ᴜᴍᴀ 𖹭ᴘçã𖹭 ᴇɴᴛʀᴇ ᴘᴇᴅʀᴀ, ᴘᴀᴘᴇʟ ᴇ ᴛᴇs𖹭ᴜʀᴀ !!")
         jogador1 = input("\033[33m(˶ˆᗜˆ˵) J𖹭ɢᴀᴅ𖹭ʀ 1, ʀᴇᴀʟɪᴢᴇ sᴜᴀ ᴊ𖹭ɢᴀᴅᴀ, ᴘ𖹭ʀ ғᴀᴠ𖹭ʀ !! ۶ৎ Aɢ𖹭ʀᴀ ᴇsᴄ𖹭ʟʜᴀ: \033[0m").lower()
+
         if jogador1 != "pedra" and jogador1 != "papel" and jogador1 != "tesoura":
             print("\033[95m(╥﹏╥) J𖹭ɢᴀᴅᴀ Iɴᴠᴀ́ʟɪᴅᴀ !! *ੈ✩‧₊˚\033[0m")
             verify2 = 0
+
+# O programa avisa as opções válidas e pede para o Jogador1 digitar sua jogada.
+# .lower() transforma o texto em minúsculo, para evitar erro se o jogador digitar "Pedra" ou "PEDRA".
+# Depois, o programa verifica se o que o jogador digitou é diferente das opções, se for inválido, dá erro.
+# Verify2 = 0 mantém o loop rodando, ou seja, o jogador terá que tentar novamente.
+
         else:
             print("\n" * 20)
+
+# A parte "\n" dá espaço de 20 linhas para o Jogador1 não ver a resposta do Jogador2.
+
             verify3 = 0
             while verify3 == 0:
                 jogador2 = input("\033[33m(˶ˆᗜˆ˵) J𖹭ɢᴀᴅ𖹭ʀ 2, ʀᴇᴀʟɪᴢᴇ sᴜᴀ ᴊ𖹭ɢᴀᴅᴀ, ᴘ𖹭ʀ ғᴀᴠ𖹭ʀ !! ۶ৎ Aɢ𖹭ʀᴀ ᴇsᴄ𖹭ʟʜᴀ: \033[0m").lower()
@@ -41,6 +70,10 @@ if gameMode == 1:
                     verify3 = 0
                 else:
                     verify3 = 1
+
+# Depois que o Jogador1 escolhe, o programa pede a escolha do Jogador2.
+# O mesmo processo acontece: Começa outro loop, terminando se verify3 != 0;
+# Ou seja, se for inválido, repete até ser válido.
 
         if jogador1 == jogador2:
             print()
@@ -53,6 +86,11 @@ if gameMode == 1:
                 verify2 = 1
                 print ()
                 print ("\033[95m°❀⋆.ೃ࿔*:･ Tʀᴀʙᴀʟʜ𖹭 ғᴇɪᴛ𖹭 ᴘ𖹭ʀ Lᴜᴄᴀs Dɪɴɴɪᴇs ᴇ Mᴀʀɪᴀɴᴀ P𖹭ɴᴅᴇ́  ‹𝟹\033[0m")
+                
+# Empate.
+# Se o Usuário escolher digitar 1 na variável "jogarNovamente", ele joga mais uma vez!
+# Caso contrário, o jogo termina.
+
         elif (jogador1 == "pedra" and jogador2 == "tesoura") or (jogador1 == "papel" and jogador2 == "pedra") or (jogador1 == "tesoura" and jogador2 == "papel"):
             print ("\033[36m ݁ ˖Ი𐑼⋆ J𖹭ɢᴀᴅ𖹭ʀ 1 ɢᴀɴʜ𖹭ᴜ !! Pᴀʀᴀʙᴇ́ɴs !! ⋆˚࿔\033[0m")
             print()
@@ -63,6 +101,9 @@ if gameMode == 1:
                 verify2 = 1
                 print ()
                 print ("\033[95m°❀⋆.ೃ࿔*:･ Tʀᴀʙᴀʟʜ𖹭 ғᴇɪᴛ𖹭 ᴘ𖹭ʀ Lᴜᴄᴀs Dɪɴɴɪᴇs ᴇ Mᴀʀɪᴀɴᴀ P𖹭ɴᴅᴇ́  ‹𝟹\033[0m")
+                
+# Vitória do jogador1.
+
         else:
             print ("\033[36m ݁ ˖Ი𐑼⋆ J𖹭ɢᴀᴅᴏʀ 2 ɢᴀɴʜ𖹭ᴜ !! Pᴀʀᴀʙᴇ́ɴs !! ⋆˚࿔\033[0m")
             print()
@@ -73,7 +114,10 @@ if gameMode == 1:
                 verify2 = 1
                 print ()
                 print ("\033[95m°❀⋆.ೃ࿔*:･ Tʀᴀʙᴀʟʜ𖹭 ғᴇɪᴛ𖹭 ᴘ𖹭ʀ Lᴜᴄᴀs Dɪɴɴɪᴇs ᴇ Mᴀʀɪᴀɴᴀ P𖹭ɴᴅᴇ́  ‹𝟹\033[0m")
+                
+# Vitória do jogador2.
 
+# - - - Humano x Máquina - - -
 
 if gameMode == 2:
 
@@ -127,6 +171,8 @@ if gameMode == 2:
                 verify2 = 1
                 print()
                 print("\033[95m°❀⋆.ೃ࿔*:･ Tʀᴀʙᴀʟʜ𖹭 ғᴇɪᴛ𖹭 ᴘ𖹭ʀ Lᴜᴄᴀs Dɪɴɴɪᴇs ᴇ Mᴀʀɪᴀɴᴀ P𖹭ɴᴅᴇ́  ‹𝟹\033[0m")
+
+# - - - Máquina x Máquina - - -
 
 if gameMode == 3:
 
