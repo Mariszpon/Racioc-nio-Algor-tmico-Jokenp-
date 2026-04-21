@@ -52,6 +52,9 @@ Entre os elementos visuais aplicados estão:
 ---
 
 ## 🌕.✦ ݁˖ Menu: <a id="menu"></a>
+<div align="center">
+<img width="880" height="1053" alt="_Fluxograma1 (1)" src="https://github.com/user-attachments/assets/e7889e63-62f0-4b8b-8231-f5794fbc72d8" />
+</div>
 
 
 ---
