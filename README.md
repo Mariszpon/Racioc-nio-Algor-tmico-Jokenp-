@@ -1,5 +1,5 @@
 <div align="center">
-<h1> ♡ Olá !! Aqui é o Lucas e a Mariana !! 🌝</h1>
+<h1> ♡ Olá !! Aqui é o Lucas e a Mariana !! ✨</h1>
 <p>
   <img src="https://img.shields.io/badge/status-concluído-brightgreen" alt="Status" />
 </p>
@@ -49,5 +49,5 @@ blablablablablablablablablablablablablablablablablablablablablablablablablablabl
 
 ---
 
-## 🌚.✦ ݁˖ Finalização: <a id="finalização"></a>
+## ✨.✦ ݁˖ Finalização: <a id="finalização"></a>
 
