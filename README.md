@@ -10,7 +10,7 @@
   <a href="#gamemode2">GameMode 2</a> ♡
   <a href="#gamemode3">GameMode 3 </a> ♡
   <a href="#gamemode4">GameMode 4</a> ♡
-  <a href="#finalização">Finalização</a> ♡
+  <a href="#finalização">Finalização</a>
 </p>
 
 blablabla
