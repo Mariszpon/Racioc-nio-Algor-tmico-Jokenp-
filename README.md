@@ -7,10 +7,10 @@
 <p>
   <a href="#menu">Menu</a> •
   <a href="#gamemode1">GameMode 1</a> •
-  <a href="#fluxo-do-sistema">Fluxo</a> •
-  <a href="#banco-de-dados">Banco de Dados</a> •
-  <a href="#tecnologias">Tecnologias</a> •
-  <a href="#equipe">Equipe</a>
+  <a href="#gamemode2">GameMode 2</a> •
+  <a href="#gamemode3">GameMode 3 </a> •
+  <a href="#gamemode4">GameMode 4</a> •
+  <a href="#finalização">Finalização</a> •
 </p>
 
 blablabla
