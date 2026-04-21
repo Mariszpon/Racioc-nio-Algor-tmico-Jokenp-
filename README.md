@@ -23,6 +23,21 @@
 
 ### ⋆˙⟡ O que é Jokenpô?
 
+### ⋆˙⟡ Objetivo:
+Propósito do projeto.
+
+### ⋆˙⟡ Contexto Acadêmico:
+Este projeto foi desenvolvido no primeiro período do curso de Ciências da Computação, como parte da disciplina...
+
+### ⋆˙⟡ Estilo Visual:
+Para tornar a experiência mais atrativa, o projeto...
+
+### ⋆˙⟡ Conceitos de Programação Aplicados:
+*
+*
+*
+*
+*
 
 ---
 
