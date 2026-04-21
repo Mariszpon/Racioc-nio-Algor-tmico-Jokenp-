@@ -19,7 +19,7 @@
 
 ## ✨.✦ ݁˖ Introdução: <a id="introducao"></a>
 
-### Tecnologias Utilizadas:
+### ⋆˙⟡ Tecnologias Utilizadas:
 [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)](#)&nbsp;
 [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](#)
 [![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=fff)](#)
@@ -67,5 +67,5 @@ blablablablablablablablablablablablablablablablablablablablablablablablablablabl
 
 ## ✨.✦ ݁˖ Finalização: <a id="finalizacao"></a>
 
-### Alunos Contribuintes:
+### ⋆˙⟡ Alunos Contribuintes:
 
