@@ -205,7 +205,7 @@ if gameMode == 3:
 
         print()
         if maquina1 == maquina2:
-            print("Empate")
+            print("\033[36m ݁ ˖Ი𐑼⋆ Eᴍᴘᴀᴛᴇ !! ⋆˚࿔\033[0m")
             jogarNovamente = int(input("⋆. 𐙚 ˚ Dᴇsᴇᴊᴀ ᴊ𖹭ɢᴀʀ ɴ𖹭ᴠᴀᴍᴇɴᴛᴇ ?? (1 ᴘᴀʀᴀ sɪᴍ ᴇ 2 ᴘᴀʀᴀ ɴᴀ̃ᴏ): "))
             if jogarNovamente == 1:
                 verify2 = 0
@@ -213,9 +213,8 @@ if gameMode == 3:
                 verify2 = 1
                 print()
                 print("\033[95m°❀⋆.ೃ࿔*:･ Tʀᴀʙᴀʟʜ𖹭 ғᴇɪᴛ𖹭 ᴘ𖹭ʀ Lᴜᴄᴀs Dɪɴɴɪᴇs ᴇ Mᴀʀɪᴀɴᴀ P𖹭ɴᴅᴇ́  ‹𝟹\033[0m")
-        elif (maquina1 == 0 and maquina2 == 2) or (maquina1 == 1 and maquina2 == 0) or (
-                maquina1 == 2 and maquina2 == 1):
-            print("Computador 1 venceu")
+        elif (maquina1 == 0 and maquina2 == 2) or (maquina1 == 1 and maquina2 == 0) or (maquina1 == 2 and maquina2 == 1):
+            print("\033[36m ݁ ˖Ი𐑼⋆ A ᴍᴀ́ǫᴜɪɴᴀ 1 ᴠᴇɴᴄᴇᴜ !! ⋆˚࿔\033[0m")
             jogarNovamente = int(input("⋆. 𐙚 ˚ Dᴇsᴇᴊᴀ ᴊ𖹭ɢᴀʀ ɴ𖹭ᴠᴀᴍᴇɴᴛᴇ ?? (1 ᴘᴀʀᴀ sɪᴍ ᴇ 2 ᴘᴀʀᴀ ɴᴀ̃ᴏ): "))
             if jogarNovamente == 1:
                 verify2 = 0
@@ -224,7 +223,7 @@ if gameMode == 3:
                 print()
                 print("\033[95m°❀⋆.ೃ࿔*:･ Tʀᴀʙᴀʟʜ𖹭 ғᴇɪᴛ𖹭 ᴘ𖹭ʀ Lᴜᴄᴀs Dɪɴɴɪᴇs ᴇ Mᴀʀɪᴀɴᴀ P𖹭ɴᴅᴇ́  ‹𝟹\033[0m")
         else:
-            print("Computador 2 venceu")
+            print("\033[36m ݁ ˖Ი𐑼⋆ A ᴍᴀ́ǫᴜɪɴᴀ 2 ᴠᴇɴᴄᴇᴜ !! ⋆˚࿔\033[0m")
             jogarNovamente = int(input("⋆. 𐙚 ˚ Dᴇsᴇᴊᴀ ᴊ𖹭ɢᴀʀ ɴ𖹭ᴠᴀᴍᴇɴᴛᴇ ?? (1 ᴘᴀʀᴀ sɪᴍ ᴇ 2 ᴘᴀʀᴀ ɴᴀ̃ᴏ): "))
             if jogarNovamente == 1:
                 verify2 = 0
