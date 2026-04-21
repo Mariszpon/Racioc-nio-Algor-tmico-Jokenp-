@@ -33,6 +33,9 @@ Este projeto foi desenvolvido como parte da disciplina de Raciocínio Algorítmi
 ### ⋆˙⟡ Estilo Visual:
 O projeto foi desenvolvido com uma estética colorida e divertida, utilizando as cores azul, rosa e amarelo como base.
 Essas cores foram escolhidas por remeterem a elementos celestes e delicados, como estrelas e flores, criando uma atmosfera lúdica e acolhedora para o jogo.
+Entre os elementos visuais aplicados estão:
+* Códigos de cor para estilizar o menu e as mensagens no terminal;
+* Símbolos decorativos que reforçam a temática de estrelas, flores e laços;
 
 ### ⋆˙⟡ Conceitos de Programação Aplicados:
 *
