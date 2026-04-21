@@ -1,7 +1,9 @@
 <div align="center">
 <h1> ˚˖𓍢ִ໋❀ RA1 - Jokenpô !! ✨</h1>
 <p>
-  <img src="https://img.shields.io/badge/status-concluído-brightgreen" alt="Status" />
+  <img src="https://img.shields.io/badge/status-concluído-brightgreen" />
+  <img src="https://img.shields.io/badge/contributors-2-blue" />
+  <img src="https://img.shields.io/badge/projeto-acadêmico-orange" />
 </p>
 
 <p>
@@ -18,6 +20,8 @@
 ---
 
 ## ✨.✦ ݁˖ Introdução: <a id="introducao"></a>
+
+### ⋆˙⟡ O que é Jokenpô?
 
 ### ⋆˙⟡ Tecnologias Utilizadas:
 [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)](#)&nbsp;
@@ -45,7 +49,7 @@
 
 ---
 
-## 🌑.✦ ݁˖ GameMode 4: <a id="gamemode3"></a>
+## 🌑.✦ ݁˖ GameMode 4: <a id="gamemode4"></a>
 
 ---
 
