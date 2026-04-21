@@ -24,8 +24,12 @@
 ### ⋆˙⟡ O que é Jokenpô?
 Jokenpô é o nome japonês para o jogo “Pedra, Papel e Tesoura”, uma brincadeira simples e muito popular usada tanto para diversão quanto para decidir disputas rápidas.
 
-### ⋆˙⟡ Objetivo:
-O objetivo principal deste projeto é implementar o jogo Jokenpô (Pedra, Papel e Tesoura) em Python, explorando diferentes modos de interação (Humano x Humano, Humano x Máquina e Máquina x Máquina).
+### ⋆˙⟡ Explicação do Projeto:
+O projeto consiste na implementação do jogo Jokenpô (Pedra, Papel e Tesoura) em Python.
+Ele foi desenvolvido para permitir diferentes modos de interação:
+* Humano x Humano: dois jogadores digitam suas jogadas no terminal.
+* Humano x Máquina: o jogador humano enfrenta a máquina, que escolhe jogadas aleatórias.
+* Máquina x Máquina: duas máquinas jogam entre si, simulando partidas automáticas.
 
 ### ⋆˙⟡ Contexto Acadêmico:
 Este projeto foi desenvolvido como parte da disciplina de Raciocínio Algorítmico, no primeiro período do curso de Ciências da Computação.
