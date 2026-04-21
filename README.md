@@ -5,7 +5,7 @@
 </p>
 
 <p>
-  <a href="#introdução">Introdução</a> ★
+  <a href="#introducao">Introdução</a> ★
   <a href="#menu">Menu</a> ★
   <a href="#gamemode1">GameMode 1</a> ★
   <a href="#gamemode2">GameMode 2</a> ★
@@ -17,7 +17,7 @@
 
 ---
 
-## ✨.✦ ݁˖ Introdução: <a id="introdução"></a>
+## ✨.✦ ݁˖ Introdução: <a id="introducao"></a>
 
 ### Tecnologias Utilizadas:
 [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)](#)&nbsp;
@@ -68,5 +68,9 @@ blablablablablablablablablablablablablablablablablablablablablablablablablablabl
 ## ✨.✦ ݁˖ Finalização: <a id="finalizacao"></a>
 
 ### Alunos Contribuintes:
+
+## ✨.✦ ݁˖ Finalização <a id="finalizacao"></a>
+
+### 👥 Alunos Contribuintes:
 
 <img src="https://contrib.rocks/image?repo=Mariszpon/Racioc-nio-Algor-tmico-Jokenp-" />
