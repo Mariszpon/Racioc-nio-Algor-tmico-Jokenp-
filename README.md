@@ -1,5 +1,5 @@
 <div align="center">
-<h1> ♡ Olá !! Aqui é o Lucas e a Mariana !! ✨</h1>
+<h1> ˚˖𓍢ִ໋❀ RA1 - Jokenpô !! ✨</h1>
 <p>
   <img src="https://img.shields.io/badge/status-concluído-brightgreen" alt="Status" />
 </p>
