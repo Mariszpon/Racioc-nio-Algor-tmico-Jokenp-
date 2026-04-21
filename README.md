@@ -56,4 +56,7 @@
 ## ✨.✦ ݁˖ Finalização: <a id="finalizacao"></a>
 
 ### ⋆˙⟡ Alunos Contribuintes:
-
+| Nome | GitHub |
+|---|---|
+| Lucas Dinnies | [@LRDinnies](https://github.com/LRDinnies) |
+| Mariana Pondé | [@Mariszpon](https://github.com/Mariszpon) |
