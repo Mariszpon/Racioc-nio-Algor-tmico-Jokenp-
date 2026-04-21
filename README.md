@@ -50,14 +50,15 @@ Entre os elementos visuais aplicados estão:
 * Biblioteca random;
 * Estilização com códigos.
 
----
-
-## 🌕.✦ ݁˖ Menu: <a id="menu"></a>
 ### ⋆˙⟡ Fluxograma:
 <div align="center">
 <img width="880" height="1053" alt="_Fluxograma1 (2)" src="https://github.com/user-attachments/assets/cde35957-2a94-4e2b-8e67-afe7d6671bb2" />
 </div>
 
+
+---
+
+## 🌕.✦ ݁˖ Menu: <a id="menu"></a>
 
 ---
 
