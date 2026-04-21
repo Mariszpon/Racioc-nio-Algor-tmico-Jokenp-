@@ -59,6 +59,7 @@ Entre os elementos visuais aplicados estão:
 ---
 
 ## 🌕.✦ ݁˖ Menu: <a id="menu"></a>
+<img width="257" height="249" alt="image" src="https://github.com/user-attachments/assets/40dc270b-eb06-47f0-815f-8cb716b833f6" />
 
 ---
 
