@@ -68,3 +68,4 @@ blablablablablablablablablablablablablablablablablablablablablablablablablablabl
 ## ✨.✦ ݁˖ Finalização: <a id="finalização"></a>
 
 ### Alunos Contribuintes:
+  <img src="https://contrib.rocks/image?repo=Mariszpon/Racioc-nio-Algor-tmico-Jokenp-" />
