@@ -30,6 +30,7 @@ Ele foi desenvolvido para permitir diferentes modos de interação:
 * Humano x Humano: dois jogadores digitam suas jogadas no terminal.
 * Humano x Máquina: o jogador humano enfrenta a máquina, que escolhe jogadas aleatórias.
 * Máquina x Máquina: duas máquinas jogam entre si, simulando partidas automáticas.
+* Sair do Programa.
 
 ### ⋆˙⟡ Contexto Acadêmico:
 Este projeto foi desenvolvido como parte da disciplina de Raciocínio Algorítmico, no primeiro período do curso de Ciências da Computação.
