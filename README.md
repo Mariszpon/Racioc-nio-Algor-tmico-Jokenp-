@@ -73,4 +73,4 @@ blablablablablablablablablablablablablablablablablablablablablablablablablablabl
 
 ### 👥 Alunos Contribuintes:
 
-<img src="https://contrib.rocks/image?repo=Mariszpon/Racioc-nio-Algor-tmico-Jokenp-" />
+<img src="https://contrib.rocks/image?repo=Mariszpon/Raciocinio-Algoritmico-Jokenpo" />
