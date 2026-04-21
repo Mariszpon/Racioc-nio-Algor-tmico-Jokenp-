@@ -11,7 +11,7 @@
   <a href="#gamemode2">GameMode 2</a> ★
   <a href="#gamemode3">GameMode 3 </a> ★
   <a href="#gamemode4">GameMode 4</a> ★
-  <a href="#finalização">Finalização</a>
+  <a href="#finalizacao">Finalização</a>
 </p>
 </div>
 
@@ -65,7 +65,8 @@ blablablablablablablablablablablablablablablablablablablablablablablablablablabl
 
 ---
 
-## ✨.✦ ݁˖ Finalização: <a id="finalização"></a>
+## ✨.✦ ݁˖ Finalização: <a id="finalizacao"></a>
 
 ### Alunos Contribuintes:
-  <img src="https://contrib.rocks/image?repo=Mariszpon/Racioc-nio-Algor-tmico-Jokenp-" />
+
+<img src="https://contrib.rocks/image?repo=Mariszpon/Racioc-nio-Algor-tmico-Jokenp-" />
