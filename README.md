@@ -18,7 +18,7 @@ blablabla
 
 ---
 
-### 🌕.✦ ݁˖ Menu:
+### 🌕.✦ ݁˖ Menu
 <img width="526" height="270" alt="image" src="https://github.com/user-attachments/assets/bb52fc6f-3648-498b-8f7f-76b8d35d9e6a" />
 
 blablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablabla
@@ -30,5 +30,5 @@ blablablablablablablablablablablablablablablablablablablablablablablablablablabl
 
 ---
 
-### 🌖.✦ ݁˖ GameMode 1:
+### 🌖.✦ ݁˖ GameMode 1
 <img width="966" height="878" alt="image" src="https://github.com/user-attachments/assets/10ec5976-45ad-48eb-adee-95b81a9a7021" />
