@@ -1,4 +1,17 @@
-# ♡ Olá! Aqui é o Lucas e a Mariana !! ✨
+<div align="center">
+<h1> ♡ Olá !! Aqui é o Lucas e a Mariana !! ✨</h1>
+<p>
+  <img src="https://img.shields.io/badge/status-concluído-brightgreen" alt="Status" />
+</p>
+
+<p>
+  <a href="#🌕.✦ ݁˖ Menu">Menu</a> •
+  <a href="#funcionalidades">Funcionalidades</a> •
+  <a href="#fluxo-do-sistema">Fluxo</a> •
+  <a href="#banco-de-dados">Banco de Dados</a> •
+  <a href="#tecnologias">Tecnologias</a> •
+  <a href="#equipe">Equipe</a>
+</p>
 
 blablabla
 
