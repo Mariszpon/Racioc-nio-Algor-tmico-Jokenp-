@@ -190,18 +190,18 @@ if gameMode == 3:
 
         print()
         if maquina1 == 0:
-            print("Computador 1: Pedra")
+            print("\033[95m⋆˙⟡ Mᴀ́ǫᴜɪɴᴀ 1: ᴘᴇᴅʀᴀ .ᐟ\033[0m")
         elif maquina1 == 1:
-            print("Computador 1: Papel")
+            print("\033[95m⋆˙⟡ Mᴀ́ǫᴜɪɴᴀ 1: ᴘᴀᴘᴇʟ .ᐟ\033[0m")
         else:
-            print("Computador 1: Tesoura")
+            print("\033[95m⋆˙⟡ Mᴀ́ǫᴜɪɴᴀ 1: ᴛᴇs𖹭ᴜʀᴀ .ᐟ\033[0m")
 
         if maquina2 == 0:
-            print("Computador 2: Pedra")
+            print("\033[95m⋆˙⟡ Mᴀ́ǫᴜɪɴᴀ 2: ᴘᴇᴅʀᴀ .ᐟ\033[0m")
         elif maquina2 == 1:
-            print("Computador 2: Papel")
+            print("\033[95m⋆˙⟡ Mᴀ́ǫᴜɪɴᴀ 2: ᴘᴀᴘᴇʟ .ᐟ\033[0m")
         else:
-            print("Computador 2: Tesoura")
+            print("\033[95m⋆˙⟡ 3Mᴀ́ǫᴜɪɴᴀ 2: ᴛᴇs𖹭ᴜʀᴀ .ᐟ\033[0m")
 
         print()
         if maquina1 == maquina2:
