@@ -38,11 +38,12 @@ Entre os elementos visuais aplicados estão:
 * Símbolos decorativos que reforçam a temática de estrelas, flores e laços;
 
 ### ⋆˙⟡ Conceitos de Programação Aplicados:
-*
-*
-*
-*
-*
+* Estruturas de repetição (while);
+* Estruturas condicionais (if/elif/else);
+* Manipulação de strings (.lower())
+* Validação de entradas;
+* Biblioteca random;
+* Estilização com códigos.
 
 ---
 
