@@ -6,7 +6,7 @@
 
 <p>
   <a href="#🌕.✦ ݁˖ Menu">Menu</a> •
-  <a href="#funcionalidades">Funcionalidades</a> •
+  <a href="#🌖.✦ ݁˖ GameMode 1">GameMode 1</a> •
   <a href="#fluxo-do-sistema">Fluxo</a> •
   <a href="#banco-de-dados">Banco de Dados</a> •
   <a href="#tecnologias">Tecnologias</a> •
@@ -14,14 +14,21 @@
 </p>
 
 blablabla
+</div>
 
 ---
+
 ### 🌕.✦ ݁˖ Menu:
 <img width="526" height="270" alt="image" src="https://github.com/user-attachments/assets/bb52fc6f-3648-498b-8f7f-76b8d35d9e6a" />
-O código usa:
 
-* print()
-* Símbolos
-* Cores (\033[95m, \033[33m, etc.)
-  
-Para deixar o 🌕.✦ ݁˖ Menu: Mais bonito !!
+blablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablabla
+blablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablabla
+blablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablabla
+blablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablabla
+blablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablabla
+blablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablabla
+
+---
+
+### 🌖.✦ ݁˖ GameMode 1:
+<img width="966" height="878" alt="image" src="https://github.com/user-attachments/assets/10ec5976-45ad-48eb-adee-95b81a9a7021" />
