@@ -69,8 +69,3 @@ blablablablablablablablablablablablablablablablablablablablablablablablablablabl
 
 ### Alunos Contribuintes:
 
-## ✨.✦ ݁˖ Finalização <a id="finalizacao"></a>
-
-### 👥 Alunos Contribuintes:
-
-<img src="https://contrib.rocks/image?repo=Mariszpon/Raciocinio-Algoritmico-Jokenpo" />
