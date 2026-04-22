@@ -62,6 +62,7 @@ Entre os elementos visuais aplicados estão:
 <div align="center">
 <img width="257" height="249" alt="image" src="https://github.com/user-attachments/assets/40dc270b-eb06-47f0-815f-8cb716b833f6" />
 </div>
+
 O menu inicial apresenta quatro opções de jogo:
 
 * Humano x Humano  
@@ -75,7 +76,11 @@ Caso o usuário digite uma opção inválida, o programa exibe uma mensagem de e
 ---
 
 ## 🌖.✦ ݁˖ GameMode 1: <a id="gamemode1"></a>
+<div align="center">
+<img width="633" height="339" alt="image" src="https://github.com/user-attachments/assets/61408835-90c6-4dbc-b27f-9a06856330e8" />
+  <img width="645" height="298" alt="image" src="https://github.com/user-attachments/assets/d4abd6d1-c56c-4996-b946-6e58fe5eb3b2" />
 
+</div>
 Dois jogadores digitam suas jogadas no terminal.  
 O programa compara as escolhas e determina o vencedor ou empate.  
 O placar é atualizado a cada rodada, e os jogadores podem decidir se querem jogar novamente.
