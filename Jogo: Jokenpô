@@ -114,13 +114,13 @@ if gameMode == 1:
                     print()
                     print("\033[95m°❀⋆.ೃ࿔*:･ Tʀᴀʙᴀʟʜ𖹭 ғᴇɪᴛ𖹭 ᴘ𖹭ʀ Lᴜᴄᴀs Dɪɴɴɪᴇs ᴇ Mᴀʀɪᴀɴᴀ P𖹭ɴᴅᴇ́  ‹𝟹\033[0m")
                 else:
-                    print('Rᴇsᴘ𖹭sᴛᴀ ɪɴᴠᴀ́ʟɪᴅᴀ !!!')
+                    print('\033[95mRᴇsᴘ𖹭sᴛᴀ ɪɴᴠᴀ́ʟɪᴅᴀ !!!\033[0m')
+                    print()
                     respostaValida = 0
 
-        # Empate.
         # Se o Usuário escolher digitar 1 na variável "jogarNovamente", ele joga mais uma vez!
         # Caso contrário, o jogo termina.
-        # O "respostaValida" funciona para caso a pessoa não digite 1 ou 2,
+        # O "respostaValida" funciona para caso a pessoa não digitar 1 ou 2,
         # o sistema não volte ao início do modo do jogo ou termine a operação.
 
         elif (jogador1 == "pedra" and jogador2 == "tesoura") or (jogador1 == "papel" and jogador2 == "pedra") or (
@@ -158,7 +158,8 @@ if gameMode == 1:
                     print()
                     print("\033[95m°❀⋆.ೃ࿔*:･ Tʀᴀʙᴀʟʜ𖹭 ғᴇɪᴛ𖹭 ᴘ𖹭ʀ Lᴜᴄᴀs Dɪɴɴɪᴇs ᴇ Mᴀʀɪᴀɴᴀ P𖹭ɴᴅᴇ́  ‹𝟹\033[0m")
                 else:
-                    print('Rᴇsᴘ𖹭sᴛᴀ ɪɴᴠᴀ́ʟɪᴅᴀ !!!')
+                    print('\033[95mRᴇsᴘ𖹭sᴛᴀ ɪɴᴠᴀ́ʟɪᴅᴀ !!!\033[0m')
+                    print()
                     respostaValida = 0
 
         # Vitória do jogador1.
@@ -192,7 +193,8 @@ if gameMode == 1:
                     print()
                     print("\033[95m°❀⋆.ೃ࿔*:･ Tʀᴀʙᴀʟʜ𖹭 ғᴇɪᴛ𖹭 ᴘ𖹭ʀ Lᴜᴄᴀs Dɪɴɴɪᴇs ᴇ Mᴀʀɪᴀɴᴀ P𖹭ɴᴅᴇ́  ‹𝟹\033[0m")
                 else:
-                    print('Rᴇsᴘ𖹭sᴛᴀ ɪɴᴠᴀ́ʟɪᴅᴀ !!!')
+                    print('\033[95mRᴇsᴘ𖹭sᴛᴀ ɪɴᴠᴀ́ʟɪᴅᴀ !!!\033[0m')
+                    print()
                     respostaValida = 0
 
 # Vitória do jogador2.
