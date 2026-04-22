@@ -38,18 +38,18 @@ if gameMode == 1:
     print()
 
     # Se o usuário escolheu 1 no menu, o programa entra nesse bloco.
-    
+
     vitoria1 = 0
     vitoria2 = 0
     empate = 0
-    
+
     verify2 = 0
     while verify2 == 0:
 
         # Aqui começa outro loop, terminando apenas se verify2 for diferente de 0.
         # Isso significa que o jogo continua rodando até o jogador decidir não jogar novamente.
         # Os outros servem para o placar.
-        
+
         print("Sᴇʟᴇᴄɪ𖹭ɴᴇ ᴜᴍᴀ 𖹭ᴘçã𖹭 ᴇɴᴛʀᴇ ᴘᴇᴅʀᴀ, ᴘᴀᴘᴇʟ ᴇ ᴛᴇs𖹭ᴜʀᴀ !!")
         jogador1 = input(
             "\033[33m(˶ˆᗜˆ˵) J𖹭ɢᴀᴅ𖹭ʀ 1, ʀᴇᴀʟɪᴢᴇ sᴜᴀ ᴊ𖹭ɢᴀᴅᴀ, ᴘ𖹭ʀ ғᴀᴠ𖹭ʀ !! ۶ৎ Aɢ𖹭ʀᴀ ᴇsᴄ𖹭ʟʜᴀ: \033[0m").lower()
@@ -99,7 +99,7 @@ if gameMode == 1:
 
             # Ao final da jogada, será adicionado 1 ponto ao empate.
             # Assim, mostrará no placar que os jogadores cada um receberam 1 ponto.
-            
+
             respostaValida = 0
             while respostaValida == 0:
                 jogarNovamente = int(input("⋆. 𐙚 ˚ Dᴇsᴇᴊᴀ ᴊ𖹭ɢᴀʀ ɴ𖹭ᴠᴀᴍᴇɴᴛᴇ ?? (1 ᴘᴀʀᴀ sɪᴍ ᴇ 2 ᴘᴀʀᴀ ɴᴀ̃ᴏ): "))
@@ -124,7 +124,7 @@ if gameMode == 1:
         elif (jogador1 == "pedra" and jogador2 == "tesoura") or (jogador1 == "papel" and jogador2 == "pedra") or (
                 jogador1 == "tesoura" and jogador2 == "papel"):
             print("\033[36m ݁ ˖Ი𐑼⋆ J𖹭ɢᴀᴅ𖹭ʀ 1 ɢᴀɴʜ𖹭ᴜ !! Pᴀʀᴀʙᴇ́ɴs !! ⋆˚࿔\033[0m")
-            
+
             vitoria1 += 1
             print()
             print("\033[95m────୨ৎ────\033[0m" * 3)
@@ -136,15 +136,15 @@ if gameMode == 1:
             print(f"| 'Jᴏɢᴀᴅᴏʀ 2'   | {vitoria2} | {vitoria1} | {empate} |")
             print("\033[95m────୨ৎ────\033[0m" * 3)
             print()
-            
+
 # Ao final da jogada, será adicionado 1 ponto ao vitória1.
 # Assim, mostrará no placar que o jogador 1 recebeu 1 ponto.
 
             respostaValida = 0
-            
+
 # Se não digitar 1 ou 2 não continua o código.
-            
-            
+
+
             while respostaValida == 0:
                 jogarNovamente = int(input("⋆. 𐙚 ˚ Dᴇsᴇᴊᴀ ᴊ𖹭ɢᴀʀ ɴ𖹭ᴠᴀᴍᴇɴᴛᴇ ?? (1 ᴘᴀʀᴀ sɪᴍ ᴇ 2 ᴘᴀʀᴀ ɴᴀ̃ᴏ): "))
                 if jogarNovamente == 1:
@@ -177,7 +177,7 @@ if gameMode == 1:
 
             # Ao final da jogada, será adicionado 1 ponto ao vitória2.
             # Assim, mostrará no placar que o jogador 2 recebeu 1 ponto.
-            
+
             respostaValida = 0
             while respostaValida == 0:
                 jogarNovamente = int(input("⋆. 𐙚 ˚ Dᴇsᴇᴊᴀ ᴊ𖹭ɢᴀʀ ɴ𖹭ᴠᴀᴍᴇɴᴛᴇ ?? (1 ᴘᴀʀᴀ sɪᴍ ᴇ 2 ᴘᴀʀᴀ ɴᴀ̃ᴏ): "))
@@ -200,11 +200,19 @@ if gameMode == 1:
 if gameMode == 2:
 
     print("⤷ Hᴜᴍᴀɴ𖹭 x Mᴀ́ǫᴜɪɴᴀ (2) ⋆˚࿔")
+    print()
     contador = 0
     verify2 = 0
     vitoria1 = 0
     vitoria2 = 0
     empate = 0
+
+# contador: Controla a jogada da máquina.
+# verify2: mantém o loop do jogo ativo.
+# vitoria1: conta quantas vezes o jogador humano venceu.
+# vitoria2: conta quantas vezes a máquina venceu.
+# vitoria3: conta quantos empates aconteceram.
+
     while verify2 == 0:
         print("Sᴇʟᴇᴄɪ𖹭ɴᴇ ᴜᴍᴀ 𖹭ᴘçã𖹭 ᴇɴᴛʀᴇ ᴘᴇᴅʀᴀ, ᴘᴀᴘᴇʟ ᴇ ᴛᴇs𖹭ᴜʀᴀ !!")
         jogador1 = input(
@@ -212,6 +220,7 @@ if gameMode == 2:
         if jogador1 != "pedra" and jogador1 != "papel" and jogador1 != "tesoura":
             print("\033[95m(╥﹏╥) J𖹭ɢᴀᴅᴀ Iɴᴠᴀ́ʟɪᴅᴀ !! *ੈ✩‧₊˚\033[0m")
             verify2 = 0
+
         contador = contador + 1
         resto = contador % 3
         if resto == 0:
@@ -220,6 +229,9 @@ if gameMode == 2:
             jogadaMaquina = "papel"
         else:
             jogadaMaquina = "tesoura"
+
+# Cada vez que o jogador humano faz uma jogada, o contador aumenta em +1.
+# Ele funciona como um "marcador de rodadas".
 
         if jogador1 == jogadaMaquina:
             print("\033[36m ݁ ˖Ი𐑼⋆ Eᴍᴘᴀᴛᴇ !! ⋆˚࿔\033[0m")
