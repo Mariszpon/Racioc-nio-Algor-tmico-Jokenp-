@@ -55,7 +55,7 @@ if gameMode == 1:
 
         if jogador1 != "pedra" and jogador1 != "papel" and jogador1 != "tesoura":
             print("\033[95m(╥﹏╥) J𖹭ɢᴀᴅᴀ Iɴᴠᴀ́ʟɪᴅᴀ !! *ੈ✩‧₊˚\033[0m")
-            verify2 = 0
+            continue
 
         # O programa avisa as opções válidas e pede para o Jogador1 digitar sua jogada.
         # .lower() transforma o texto em minúsculo, para evitar erro se o jogador digitar "Pedra" ou "PEDRA".
