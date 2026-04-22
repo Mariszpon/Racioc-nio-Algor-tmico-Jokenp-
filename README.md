@@ -62,15 +62,34 @@ Entre os elementos visuais aplicados estão:
 <div align="center">
 <img width="257" height="249" alt="image" src="https://github.com/user-attachments/assets/40dc270b-eb06-47f0-815f-8cb716b833f6" />
 </div>
+O menu inicial apresenta quatro opções de jogo:
+
+* Humano x Humano  
+* Humano x Máquina  
+* Máquina x Máquina  
+* Sair do Programa
+
+Ele foi estilizado com cores e símbolos para criar uma experiência mais divertida.  
+Caso o usuário digite uma opção inválida, o programa exibe uma mensagem de erro e solicita novamente.
 
 ---
 
 ## 🌖.✦ ݁˖ GameMode 1: <a id="gamemode1"></a>
 
+Dois jogadores digitam suas jogadas no terminal.  
+O programa compara as escolhas e determina o vencedor ou empate.  
+O placar é atualizado a cada rodada, e os jogadores podem decidir se querem jogar novamente.
 
 ---
 
 ## 🌗.✦ ݁˖ GameMode 2: <a id="gamemode2"></a>
+
+<img width="632" height="410" alt="image" src="https://github.com/user-attachments/assets/e594af73-670c-4ecb-a8f0-4244b88a3bd9" />
+
+
+O jogador humano escolhe sua jogada, enquanto a máquina gera uma jogada aleatória.  
+O resultado é exibido e o placar atualizado.  
+O jogador pode optar por continuar ou encerrar.
 
 ---
 
