@@ -75,6 +75,7 @@ if gameMode == 1:
                     "\033[33m(˶ˆᗜˆ˵) J𖹭ɢᴀᴅ𖹭ʀ 2, ʀᴇᴀʟɪᴢᴇ sᴜᴀ ᴊ𖹭ɢᴀᴅᴀ, ᴘ𖹭ʀ ғᴀᴠ𖹭ʀ !! ۶ৎ Aɢ𖹭ʀᴀ ᴇsᴄ𖹭ʟʜᴀ: \033[0m").lower()
                 if jogador2 != "pedra" and jogador2 != "papel" and jogador2 != "tesoura":
                     print("\033[95m(╥﹏╥) J𖹭ɢᴀᴅᴀ Iɴᴠᴀ́ʟɪᴅᴀ !! *ੈ✩‧₊˚\033[0m")
+                    print()
                     verify3 = 0
                 else:
                     verify3 = 1
