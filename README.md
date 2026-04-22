@@ -99,7 +99,13 @@ O jogador pode optar por continuar ou encerrar.
 ---
 
 ## 🌘.✦ ݁˖ GameMode 3: <a id="gamemode3"></a>
+<div align="center">
+<img width="523" height="427" alt="image" src="https://github.com/user-attachments/assets/7786625f-7f7c-473b-bee9-0fe1d2efada4" />
+</div>
 
+Duas máquinas jogam entre si, com jogadas aleatórias.  
+O programa mostra o resultado e atualiza o placar automaticamente.  
+O usuário pode assistir várias rodadas seguidas.
 ---
 
 ## 🌑.✦ ݁˖ GameMode 4: <a id="gamemode4"></a>
