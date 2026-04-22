@@ -92,8 +92,8 @@ O placar é atualizado a cada rodada, e os jogadores podem decidir se querem jog
 <img width="632" height="410" alt="image" src="https://github.com/user-attachments/assets/e594af73-670c-4ecb-a8f0-4244b88a3bd9" />
 </div>
 
-O jogador humano escolhe sua jogada, enquanto a máquina gera uma jogada aleatória.  
-O resultado é exibido e o placar atualizado.  
+O jogador humano escolhe sua jogada, enquanto a máquina gera uma jogada aleatória.
+O resultado é exibido e o placar atualizado.
 O jogador pode optar por continuar ou encerrar.
 
 ---
