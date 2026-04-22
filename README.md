@@ -2,7 +2,7 @@
 <h1> ˚˖𓍢ִ໋❀ RA1 - Jokenpô !! ✨</h1>
 <p>
   <img src="https://img.shields.io/badge/status-concluído-brightgreen" />
-  <img src="https://img.shields.io/badge/contributors-2-blue" />
+  <img src="https://img.shields.io/badge/contribuidores-2-blue" />
   <img src="https://img.shields.io/badge/projeto-acadêmico-orange" />
 </p>
 
