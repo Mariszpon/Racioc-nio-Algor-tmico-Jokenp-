@@ -106,9 +106,15 @@ O jogador pode optar por continuar ou encerrar.
 Duas máquinas jogam entre si, com jogadas aleatórias.  
 O programa mostra o resultado e atualiza o placar automaticamente.  
 O usuário pode assistir várias rodadas seguidas.
+
 ---
 
 ## 🌑.✦ ݁˖ GameMode 4: <a id="gamemode4"></a>
+<div align="center">
+<img width="528" height="115" alt="image" src="https://github.com/user-attachments/assets/d616214c-cbd5-4b37-98fa-162807affed5" />
+
+</div>
+Encerra o programa e exibe nossos créditos.
 
 ---
 
