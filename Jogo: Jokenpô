@@ -156,7 +156,7 @@ if gameMode == 1:
                     print('\033[95mRᴇsᴘ𖹭sᴛᴀ ɪɴᴠᴀ́ʟɪᴅᴀ !!!\033[0m')
                     print()
                     respostaValida = 0
-                    
+
         # Se não digitar 1 ou 2 não continua o código.
         # Vitória do jogador1.
 
@@ -200,7 +200,7 @@ if gameMode == 1:
 if gameMode == 2:
     print("⤷ Hᴜᴍᴀɴ𖹭 x Mᴀ́ǫᴜɪɴᴀ (2) ⋆˚࿔")
     print()
-    
+
     contador = 0
     verify2 = 0
     vitoria1 = 0
@@ -261,9 +261,7 @@ if gameMode == 2:
                     respostaValida = 0
 
 
-        elif (jogador1 == "pedra" and jogadaMaquina == "tesoura") or (
-                jogador1 == "papel" and jogadaMaquina == "pedra") or (
-                jogador1 == "tesoura" and jogadaMaquina == "papel"):
+        elif (jogador1 == "pedra" and jogadaMaquina == "tesoura") or (jogador1 == "papel" and jogadaMaquina == "pedra") or (jogador1 == "tesoura" and jogadaMaquina == "papel"):
             print("\033[36m ݁ ˖Ი𐑼⋆ J𖹭ɢᴀᴅ𖹭ʀ 1 ɢᴀɴʜ𖹭ᴜ !! Pᴀʀᴀʙᴇ́ɴs !! ⋆˚࿔\033[0m")
             vitoria1 += 1
             print()
