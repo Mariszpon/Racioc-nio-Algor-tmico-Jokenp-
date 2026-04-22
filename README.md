@@ -79,10 +79,10 @@ Caso o usuário digite uma opção inválida, o programa exibe uma mensagem de e
 <div align="center">
 <img width="633" height="339" alt="image" src="https://github.com/user-attachments/assets/61408835-90c6-4dbc-b27f-9a06856330e8" />
   <img width="645" height="298" alt="image" src="https://github.com/user-attachments/assets/d4abd6d1-c56c-4996-b946-6e58fe5eb3b2" />
-
 </div>
-Dois jogadores digitam suas jogadas no terminal.  
-O programa compara as escolhas e determina o vencedor ou empate.  
+
+Dois jogadores digitam suas jogadas no terminal.
+O programa compara as escolhas e determina o vencedor ou empate.
 O placar é atualizado a cada rodada, e os jogadores podem decidir se querem jogar novamente.
 
 ---
