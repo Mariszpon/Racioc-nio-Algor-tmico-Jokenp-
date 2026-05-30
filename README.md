@@ -52,7 +52,7 @@ Entre os elementos visuais aplicados estão:
 
 ### ⋆˙⟡ Fluxograma:
 <div align="center">
-<img width="720" height="1092" alt="Blank diagram (1)" src="https://github.com/user-attachments/assets/5b669df3-9afb-406c-b425-765b72880c3b" />
+<img width="639" height="960" alt="Blank diagram (3)" src="https://github.com/user-attachments/assets/1fe0ff49-1049-46cf-9d6f-47259db84eaa" />
 </div>
 
 
